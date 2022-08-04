@@ -1,0 +1,35 @@
+.divisor {
+  width: 95%;
+  background-color: #e0e0e0;
+  height: 2px;
+  margin-left: 6px;
+}
+
+.valor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 0.75rem;
+}
+
+.text-content p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.text-content span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #828282;
+}
+
+.btn-totalMoney {
+  width: 95%;
+  margin: 0.75rem 0;
+
+  background-color: #e0e0e0;
+  color: #828282;
+  border: 2px solid #e0e0e0;
+}

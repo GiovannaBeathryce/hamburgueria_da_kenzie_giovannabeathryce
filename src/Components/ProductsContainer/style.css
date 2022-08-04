@@ -1,0 +1,39 @@
+.container-products {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  margin: auto;
+  max-width: 90%;
+  height: 22.56rem;
+  max-height: 45.93rem;
+  overflow-x: scroll;
+}
+
+ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .container-products {
+    height: 43rem;
+    width: 80%;
+    overflow: hidden;
+    margin: 5px;
+    align-items: flex-start;
+  }
+
+  ul {
+    flex-wrap: wrap;
+    height: 41rem;
+    align-items: flex-start;
+  }
+}
